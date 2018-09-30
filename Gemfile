@@ -1,3 +1,3 @@
 source :rubygems
-gem 'albacore'
+gem 'albacore', '>= 0.2.2'
 gem 'jeweler'

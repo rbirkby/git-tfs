@@ -1,9 +1,11 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    albacore (0.2.2)
-      rake (>= 0.8.7)
-      rubyzip (>= 0.9.4)
+    albacore (3.0.1)
+      map (~> 6.5)
+      nokogiri (~> 1.5)
+      rake (~> 10)
+      semver2 (~> 3.4)
     gemcutter (0.6.1)
     git (1.2.5)
     jeweler (1.4.0)
@@ -11,14 +13,24 @@ GEM
       git (>= 1.2.5)
       rubyforge (>= 2.0.0)
     json_pure (1.4.6)
-    rake (0.8.7)
+    map (6.6.0)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    nokogiri (1.8.4-x86-mingw32)
+      mini_portile2 (~> 2.3.0)
+    rake (10.5.0)
     rubyforge (2.0.4)
       json_pure (>= 1.1.7)
-    rubyzip (0.9.4)
+    semver2 (3.4.2)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
-  albacore
+  albacore (>= 0.2.2)
   jeweler
+
+BUNDLED WITH
+   1.16.5
